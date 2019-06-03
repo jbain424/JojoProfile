@@ -1,0 +1,10 @@
+.home_Links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  margin: auto 0;
+
+
+
+}

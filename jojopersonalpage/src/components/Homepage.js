@@ -8,11 +8,10 @@ class Homepage extends React.Component {
   render() {
     return (
       <div className="home_Links">
-        <a href="https://www.linkedin.com/in/jonelle-bain/"></a> <img src={profilePic} alt="" />
-        <img src={profilePic} alt="" />
-        <img src={profilePic} alt="" />
-        <img src={profilePic} alt="" />
-
+        <img src={profilePic} alt="" width="100px" />
+        <img src={profilePic} alt="" width="100px" />
+        <img src={profilePic} alt="" width="100px" />
+        <img src={profilePic} alt="" width="100px" />
       </div>
     );
   }

@@ -13,8 +13,8 @@ const Navbar = () => {
       </span>
 
       <div className="links">
-        <a href="/https://www.linkedin.com/in/jonelle-bain/">LinkedIn</a>
-        <a href="/https://github.com/jbain424/">GitHub</a>
+        <a href="/linkedin">LinkedIn</a>
+        <a href="/github">GitHub</a>
         <Link to="/resume">Resume</Link>
         <Link to="/aboutme">About Me</Link>
       </div>
