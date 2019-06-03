@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link to="/https://www.linkedin.com/in/jonelle-bain/">LinkedIn</Link>
         <Link to="/https://github.com/jbain424/">GitHub</Link>
         <Link to="/resume">Resume</Link>
-        <Link to="/bio">About Me</Link>
+        <Link to="/aboutme">About Me</Link>
       </div>
     </div>
   );

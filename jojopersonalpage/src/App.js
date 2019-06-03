@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
+import {AboutMe} from "./components/AboutMe"
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Homepage} />
+          <Route path="/aboutme" component={AboutMe} />
         </Switch>
       </div>
     );
