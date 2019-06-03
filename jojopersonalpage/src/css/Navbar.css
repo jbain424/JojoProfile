@@ -7,11 +7,18 @@
   font-size: 12px;
 }
 
+.nav_logo {
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .links {
   display: flex;
   justify-content: flex-end;
   color: black;
   padding-right: 30px;
+  margin-top: -75px;
 }
 
 .links a {
