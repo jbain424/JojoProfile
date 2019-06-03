@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import "../css/Navbar.css";
 import logo from "../photos/personalLogo.png";
 
@@ -13,8 +13,8 @@ const Navbar = () => {
       </span>
 
       <div className="links">
-        <Link to="/https://www.linkedin.com/in/jonelle-bain/">LinkedIn</Link>
-        <Link to="/https://github.com/jbain424/">GitHub</Link>
+        <a href="/https://www.linkedin.com/in/jonelle-bain/">LinkedIn</a>
+        <a href="/https://github.com/jbain424/">GitHub</a>
         <Link to="/resume">Resume</Link>
         <Link to="/aboutme">About Me</Link>
       </div>

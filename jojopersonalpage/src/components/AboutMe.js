@@ -11,6 +11,7 @@ export const AboutMe = () => {
         </div>
 
         <div className="profile_bio">
+
           Enrolled in an intensive 10-month, Google-funded software engineering
           fellowship with a 9% acceptance rate (out of 1500+ applicants) whose
           graduates are prepared with both technical and professional skills and
